@@ -27,7 +27,6 @@ import android.view.LayoutInflater
 import androidx.appcompat.app.AlertDialog
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.DialogFragment
-import org.mattvchandler.progressbars.BuildConfig
 import org.mattvchandler.progressbars.R
 import org.mattvchandler.progressbars.databinding.AboutDialogBinding
 
@@ -39,7 +38,7 @@ class About_dialog: DialogFragment()
         val binding = DataBindingUtil.inflate<AboutDialogBinding>(LayoutInflater.from(activity), R.layout.about_dialog, null, false)
 
         builder.setView(binding.root)
-        binding.version.text = requireActivity().resources.getString(R.string.app_version, BuildConfig.VERSION_NAME)
+        binding.version.text = requireActivity().resources.getString(R.string.app_version)
 
         // allow clicking links in license and website text
         binding.license.movementMethod = LinkMovementMethod.getInstance()

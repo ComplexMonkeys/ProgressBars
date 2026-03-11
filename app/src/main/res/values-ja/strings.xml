@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">プログレスバー</string>
+    <string name="app_license">このプログラムは、いかなる保証も伴わず提供されます。\n詳細については、<a href="https://opensource.org/licenses/mit-license.php">MIT License (MIT)</a>をご覧ください。</string>
+    <string name="app_website"><a href="https://www.github.com/mattvchandler/ProgressBars">Github上のProgress Bars</a></string>
+    <string name="app_logo_desc">Progress Barsのロゴ</string>
+
+    <plurals name="second">
+        <item quantity="one">%d秒</item>
+        <item quantity="other">%d秒</item>
+    </plurals>
+
+    <plurals name="minute">
+        <item quantity="one">%d分</item>
+        <item quantity="other">%d分</item>
+    </plurals>
+
+    <plurals name="hour">
+        <item quantity="one">%d時間</item>
+        <item quantity="other">%d時間</item>
+    </plurals>
+
+    <plurals name="day">
+        <item quantity="one">%d日</item>
+        <item quantity="other">%d日</item>
+    </plurals>
+
+    <plurals name="week">
+        <item quantity="one">%d週間</item>
+        <item quantity="other">%d週間</item>
+    </plurals>
+
+    <plurals name="month">
+        <item quantity="one">%dヶ月</item>
+        <item quantity="other">%dヶ月</item>
+    </plurals>
+
+    <plurals name="year">
+        <item quantity="one">%d年</item>
+        <item quantity="other">%d年</item>
+    </plurals>
+
+    <string-array name="time_units">
+        <item>秒</item>
+        <item>分</item>
+        <item>時間</item>
+        <item>日</item>
+        <item>週間</item>
+        <item>ヶ月</item>
+        <item>年</item>
+    </string-array>
+
+    <string name="on">で</string>
+    <string name="and">と</string>
+
+    <string name="edit_title">タイマーを編集</string>
+    <string name="add_title">新しいタイマーを追加</string>
+    <string name="add_title_short">タイマー追加</string>
+
+    <string name="about">アプリについて</string>
+
+    <string name="settings">設定</string>
+
+    <string name="pref_date_format_title">日付形式</string>
+    <string-array name="pref_date_format_display">
+        <item>ロケールのデフォルト</item>
+        <item>YYYY-MM-DD</item>
+    </string-array>
+
+    <string name="pref_first_day_of_wk_title">週の始まり</string>
+    <string-array name="pref_first_day_of_wk_display">
+        <item>ロケールのデフォルト</item>
+        <item>土曜日</item>
+        <item>日曜日</item>
+        <item>月曜日</item>
+    </string-array>
+
+    <string name="pref_system_notifications">通知設定</string>
+
+    <string name="pref_widget_refresh_title">デスクトップウィジェットの更新頻度</string>
+    <string-array name="pref_widget_refresh_display">
+        <item>5秒</item>
+        <item>15秒</item>
+        <item>30秒</item>
+        <item>1分</item>
+        <item>15分</item>
+        <item>30分</item>
+        <item>1時間</item>
+        <item>1日</item>
+    </string-array>
+
+    <string name="pref_widget_text_color_title">デスクトップウィジェットの文字色</string>
+    <string-array name="pref_widget_text_color_display" tools:ignore="InconsistentArrays">
+        <item>白</item>
+        <item>黒</item>
+    </string-array>
+
+    <string name="pref_widget_bg_title">デスクトップウィジェットの背景</string>
+
+    <string name="pref_theme_title">昼/夜テーマ</string>
+    <string-array name="pref_theme_display" tools:ignore="InconsistentArrays">
+        <item>システムに従う</item>
+        <item>昼</item>
+        <item>夜</item>
+        <item>自動 (位置情報/時間ベース)</item>
+    </string-array>
+    <string name="loc_perm_title">"位置情報へのアクセスを許可しますか？"</string>
+    <string name="loc_perm_msg">"位置情報へのアクセス許可が求められます。\n\n許可された場合、ローカルの日の出/日没時にテーマを切り替えるために使用されます。それ以外の場合は、固定された時間が代わりに使用されます。\n\n位置データは保存されず、他の目的にも使用されません。"</string>
+
+    <string name="notification_channel_name">デフォルトのタイマー開始/終了</string>
+    <string name="notification_channel_desc">タイマーが開始または完了したときのデフォルトの通知</string>
+    <string name="notification_channel_group_name">タイマー固有の設定</string>
+
+    <string-array name="day_of_week_abbr">
+        <item>日</item>
+        <item>月</item>
+        <item>火</item>
+        <item>水</item>
+        <item>木</item>
+        <item>金</item>
+        <item>土</item>
+    </string-array>
+
+    <string-array name="day_of_week">
+        <item>日曜日</item>
+        <item>月曜日</item>
+        <item>火曜日</item>
+        <item>水曜日</item>
+        <item>木曜日</item>
+        <item>金曜日</item>
+        <item>土曜日</item>
+    </string-array>
+
+    <string name="invalid_date">"無効な日付: %1$s。正しい形式は: %2$s"</string>
+    <string name="invalid_time">"無効な時間: %1$s。正しい形式は: %2$s"</string>
+    <string name="end_before_start_err">エラー: 終了日時が開始日時より前です</string>
+
+    <string name="start_time">開始時刻:</string>
+    <string name="end_time">終了時刻:</string>
+
+    <string name="add_butt_title">新しいタイマーを追加</string>
+    <string name="save_butt_title">タイマーを保存</string>
+    <string name="undo">元に戻す</string>
+    <string name="redo">やり直す</string>
+
+    <string name="timer_title">タイマーのタイトル</string>
+    <string name="pre_text">開始前テキスト</string>
+    <string name="start_text">開始時テキスト</string>
+    <string name="countdown_text">カウントダウン中テキスト</string>
+    <string name="complete_text">完了時テキスト</string>
+    <string name="post_text">終了後テキスト</string>
+    <string name="single_pre_text">イベント前テキスト</string>
+    <string name="single_complete_text">イベント到達時テキスト</string>
+    <string name="single_post_text">イベント後テキスト</string>
+
+    <string name="separate_time">開始時刻と終了時刻を別々に設定</string>
+    <string name="single_date_txt">日付</string>
+    <string name="single_time_txt">時刻</string>
+    <string name="single_tz_prompt">タイムゾーン</string>
+
+    <string name="start_date_txt">開始日</string>
+    <string name="start_time_txt">開始時刻</string>
+    <string name="start_tz_prompt">開始タイムゾーン</string>
+
+    <string name="end_date_txt">終了日</string>
+    <string name="end_time_txt">終了時刻</string>
+    <string name="end_tz_prompt">終了タイムゾーン</string>
+
+    <string name="choose_tz">タイムゾーンを選択</string>
+    <string name="tz_list_subtitle">%1$s (%2$s)</string>
+
+    <string name="repeat">繰り返し</string>
+    <string name="repeat_every">毎</string>
+    <string name="repeat_unit_prompt">繰り返しの単位</string>
+    <string name="invalid_repeat_count">無効な繰り返し回数。0より大きい必要があります</string>
+    <string name="days_of_week_title">繰り返しを行う曜日</string>
+    <string name="no_days_of_week_err">エラー: 曜日が選択されていません</string>
+
+    <string name="start_clock_butt">時計から開始時刻を選択</string>
+    <string name="start_cal_butt">カレンダーから開始日を選択</string>
+    <string name="end_clock_butt">時計から終了時刻を選択</string>
+    <string name="end_cal_butt">カレンダーから終了日を選択</string>
+
+    <string name="precision">表示する小数点以下の桁数</string>
+
+    <string name="show_elements_header">表示する情報</string>
+    <string name="show_units_header">表示する時間の単位</string>
+    <string name="countdown_text_header">カウントダウンメッセージ</string>
+
+    <string name="notification_settings">通知設定</string>
+    <string name="notification_reset">通知設定をリセット</string>
+    <string name="notification_reset_msg">通知設定がデフォルトにリセットされました</string>
+
+    <string name="notification_priority_label">通知の優先度</string>
+    <string-array name="notification_priority_levels_disp">
+        <item>最低</item>
+        <item>低</item>
+        <item>標準</item>
+        <item>高</item>
+        <item>最高</item>
+    </string-array>
+
+    <string-array name="show_elements">
+        <item>プログレスバー</item>
+        <item>開始時刻</item>
+        <item>終了時刻</item>
+    </string-array>
+
+    <string name="single_show_element">イベント時刻を表示</string>
+
+    <string name="terminate">完了時にタイマーを停止</string>
+    <string name="single_terminate">イベント到達時にカウントダウンを停止</string>
+    <string name="start_notify">開始時に通知を送信</string>
+    <string name="end_notify">完了時に通知を送信</string>
+    <string name="single_notify">イベント時に通知を送信</string>
+
+    <string name="default_title">新しいタイマー</string>
+    <string name="default_pre_text">"開始まで: "</string>
+    <string name="default_start_text">開始しました</string>
+    <string name="default_countdown_text">"残り時間: "</string>
+    <string name="default_complete_text">完了しました</string>
+    <string name="default_post_text">"完了から: "</string>
+    <string name="default_single_complete_text">イベント到達</string>
+    <string name="default_single_pre_text">"イベントまで: "</string>
+    <string name="default_single_post_text">"イベントから: "</string>
+
+    <string name="loading">読み込み中…</string>
+
+    <string name="prompt_exact_alarm">タイマー終了時、正確な時刻に通知を送信することを許可しますか？</string>
+</resources>
